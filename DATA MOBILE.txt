@@ -1,0 +1,84 @@
+add class y remove class
+
+display: block;
+visibility: visible;
+
+display: none;
+visibility: hidden;
+
+
+
+
+---------------------------------------------------------------------
+
+remotasks
+
+slider. para explicar a los usuarios que hacer en el primer uso al abrir la app.
+texto facilmente comprensible, espa;ol
+imagenes descriptivas minimalistas
+peque;a explicacion de los pasos 
+iconos e imagenes conjuntas para dar informacion mas clara.
+misma paleta de colores/ iconos mismo estilo.
+
+ser claro en titulos, mensajes, pantallas. 
+
+*no olvidar agregar ALT a las imagenes por inclusividad.
+
+---------------------------------------------------------------------
+queremos hacer una aplicacion masiva. 
+que pueda utilizar cualquier tipo de personas. (mucho uso tecnologico o poco y nada)
+
+---------------------------------------------------------------------
+
+cantidad de pasos para desarrollar una accion.
+que tan fluido es todo, cuantas pantallas necesito. 
+registros simples.
+
+---------------------------------------------------------------------
+
+evitar un asistente, debemos poner en pantalla todo lo mas claro posible para evitar
+el mismo. 
+
+---------------------------------------------------------------------
+
+manejo de errores. 
+en la interaccion del usuario. 
+formularios por ejemplo.
+
+---------------------------------------------------------------------
+
+la satisfaccion es subjetiva
+
+---------------------------------------------------------------------
+
+util/
+estoy dando herramienta para mejorar la eficiencia en su trabajo?
+es util para el usuario?
+
+utilizable/
+que tenga facilidad de uso.
+que el usuario de manera facil puyeda llevar a delante el proceso y obtenga 
+resultado lo mejor posible
+
+deseable/
+tiene que ser equilibrado en disenio y en funcionalidad.
+emocionalmente equilibrado para que sea deseable.
+
+encontrable/
+que fuera facilmente encontrable  para alguien que la pueda necesitar.
+
+accesibilidad/
+para personas que tengan dificultades
+
+---------------------------------------------------------------------
+
+jackob nielsen
+
+---------------------------------------------------------------------
+
+solucione alguna problematica. 
+app mobile.
+solucionar un problema nuestro, de algun conocido, alguna idea innovadora.
+o mejorando alguna ya existente.
+
+PENSAR IDEAS
