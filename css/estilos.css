@@ -1,0 +1,379 @@
+/*IMPORTO GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+/* -------------------------------- */
+/*APLICO A TODOS LOS ELEMENTOS*/
+*{
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  letter-spacing: 7px;
+  border-radius: 10px;
+}
+
+body, #Start, #Game, #Winner{
+  background-color: rgb(33, 34, 48);
+  height: 94vh;
+}
+
+body{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+/* -------------------------------- */
+
+.visible{
+  display:block;
+  visibility: visible;
+  background-color: red;
+}
+
+.invisible{
+  display:none;
+  visibility: hidden;
+}
+
+/* -------------------------------- */
+
+h1{
+  font-size: 40px;
+}
+
+#Start{
+  width: 60vw;
+}
+
+/*------------------------------------*/
+#car{
+  margin-top: 60px;
+  width:300px;
+  margin-bottom: -110px;
+}
+
+.batirr:hover {
+  animation: batir 0.5s;
+
+  animation-iteration-count: infinite;
+}
+
+/*------------------------------------*/
+/*Animaciones*/
+
+@keyframes batir {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.aparecer {
+  animation-name: aparecer;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes color {
+  0% {
+    color:red;
+  }
+  50%{ 
+    color:blue;
+  }
+  100% {
+      color:green;
+  }
+}
+
+.colored {
+  animation-name: color;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+}
+
+/*------------------------------------*/
+.equipos{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom:200px;
+}
+
+.tipo{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.iniciar{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 80px 10vw 30px 10vw;
+  height: 80px;
+}
+
+::placeholder{
+  color: rgb(255, 255, 255);
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+input{
+  width: 400px;
+  background-color:transparent;
+  outline: none; /*para evitar el highlight*/
+  border: 3px rgb(37, 228, 37) solid;
+  margin: 30px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+button{
+  background-color:transparent;
+  border: 3px rgb(37, 228, 37) solid;
+  padding: 10px 5px;
+  margin: 0px 20px;
+  outline: none; /*para evitar el highlight*/
+  width:150px;
+  font-size: 15px;
+  padding-left: 12px;
+  letter-spacing: 5px;
+}
+
+.active{
+  box-shadow: inset 0px 0px 13px 3px rgba(0,255,17,1), 0px 0px 13px 3px rgba(0,255,17,1)
+}
+
+.inactive{
+  box-shadow: inset 0px 0px 13px 1px rgb(255, 0, 0), 0px 0px 13px 1px rgba(255, 0, 0,1);
+  border: 3px rgb(255, 0, 0) solid;
+}
+
+.mega{
+  box-shadow: inset 0px 0px 20px 1px rgb(255, 0, 0), 0px 0px 20px 3px rgba(255, 0, 0,1);
+  border: 3px rgb(255, 0, 0) solid;
+}
+
+.megavacio{
+  box-shadow: 0px 0px 20px 3px rgba(255, 0, 0,1);
+  border: 3px rgb(255, 0, 0) solid;
+}
+
+#inicio{
+  font-size: 20px;
+}
+
+/* -------------------------------- */
+
+#Game, #Winner{
+  margin-top: 40px;
+}
+
+.vl {
+  border-left: 6px solid rgb(255, 0, 0);
+  height: 763px;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: absolute;
+}
+
+.vl2 {
+  border-top: 6px solid rgb(255, 0, 0);
+  height: 1px;
+  width: 550px;
+  top:440px;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: absolute;
+}
+
+.vl3 {
+  border-top: 6px solid rgb(255, 0, 0);
+  height: 1px;
+  width: 310px;
+  top:120px;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: absolute;
+}
+
+.infoTop{
+  margin-bottom: 70px;
+}
+
+.botonTop{
+  background-color:transparent;
+  margin: 0px 20px;
+  outline: none; /*para evitar el highlight*/
+  width:80px;
+  height:80px;
+  font-size: 90px;
+  letter-spacing: 0px;
+  line-height: 0px;
+  padding-left: 8px;
+  padding-top: 0px;
+}
+
+h2{
+  margin-top: 0px;
+  padding-left: 10px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width:160px;
+  height:50px;
+  font-size: 18px;
+}
+
+/*-------------------*/
+
+.tipofondo{
+  margin-top: 620px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+.BtnInf{
+  margin-top: 0px;
+  padding-left: 10px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width:70px;
+  height:50px;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.fin{
+  padding-left: 10px;
+  width:150px;
+  height:50px;
+  font-size: 30px;
+  padding-top: 8px;
+  z-index: 11;
+}
+
+.lospuntos{
+  align-content: center;
+  align-items: center;
+  width:150px;
+  height:40px;
+  font-size: 25px;
+  z-index: 10;
+  line-height: 40px;
+  background-color:rgb(33, 34, 48)
+}
+
+.vertical{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+/*-----------------------------------------*/
+
+#imagenes{
+  top:150px;
+  height:560px;
+  width:500px;
+  position: absolute;
+}
+
+.palillos{
+  position: absolute;
+  height:80px;
+
+}
+
+/*-------------------*/
+
+#p11{
+  left: 90px;
+  top:0px
+}
+#p12{
+  left: 90px;
+  top:90px
+}
+#p13{
+  left: 90px;
+  top:180px
+}
+#p14{
+  left: 90px;
+  top:320px
+}
+#p15{
+  left: 90px;
+  top:410px
+}
+#p16{
+  left: 90px;
+  top:500px
+}
+
+/*-------------------*/
+
+#p21{
+  left: 330px;
+  top:0px
+}
+#p22{
+  left: 330px;
+  top:90px
+}
+#p23{
+  left: 330px;
+  top:180px
+}
+#p24{
+  left: 330px;
+  top:320px
+}
+#p25{
+  left: 330px;
+  top:410px
+}
+#p26{
+  left: 330px;
+  top:500px
+}
+
+/*-------------------*/

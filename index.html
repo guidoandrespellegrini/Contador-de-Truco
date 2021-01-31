@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/javascript.js"></script>
+    <title>Cyber-Truco</title>
+  </head>
+  <body>
+
+      <div id="Start" class="visible aparecer">
+
+        <section class="equipos">
+          <h1 class="colored">Cyber-Truco</h1>
+          <input id="eq1" type="text" class="active" placeholder="Nombre del equipo 1">
+          <input id="eq2" type="text" class="active" placeholder="Nombre del equipo 2">
+          <img id="car" class="batirr" src="statics/car.png" alt="">
+        </section>
+
+        <section class="tipo">
+          <button id="a24" class="inactive" >a 24</button>
+          <button id="a30" class="active">a 30</button>
+        </section>
+
+        <section class="iniciar">
+          <button id="inicio" class="active batirr">Iniciar</button>
+        </section>
+
+      </div>
+
+      <div id="Game" class="invisible aparecer">
+        <section class="tipo">
+          <div class="vl inactive"></div>
+          <div class="vl2 inactive"></div>
+          <div class="vl3 inactive"></div>
+          
+          <button id="s1" class="botonTop batirr active" >+</button>
+          <h2 id="ne1"></h2>
+
+          <h2 id="ne2"></h2>
+          <button id="s2" class="botonTop batirr active" >+</button>
+
+          <div id="imagenes">
+            <img id="p11" class="palillos" src="statics/0.png" alt="">
+            <img id="p12" class="palillos" src="statics/0.png" alt="">
+            <img id="p13" class="palillos" src="statics/0.png" alt="">
+            <img id="p14" class="palillos" src="statics/0.png" alt="">
+            <img id="p15" class="palillos" src="statics/0.png" alt="">
+            <img id="p16" class="palillos" src="statics/0.png" alt="">
+
+            <img id="p21" class="palillos" src="statics/0.png" alt="">
+            <img id="p22" class="palillos" src="statics/0.png" alt="">
+            <img id="p23" class="palillos" src="statics/0.png" alt="">
+            <img id="p24" class="palillos" src="statics/0.png" alt="">
+            <img id="p25" class="palillos" src="statics/0.png" alt="">
+            <img id="p26" class="palillos" src="statics/0.png" alt="">
+          </div>
+
+        </section>
+
+        <section class="tipofondo">
+          <button id="r1" class="botonTop batirr active" >-</button>
+          <h2 id="p1" class="BtnInf"></h2>
+
+          <div class="vertical">
+            <h2 id="max" class=" lospuntos mega">a 30</h2>
+            <button id="Fin" class="batirr botonTop megavacio fin" >F i n</button>
+          </div>
+
+          <h2 id="p2" class="BtnInf"></h2>
+          <button id="r2" class="botonTop batirr active" >-</button>
+        </section>
+
+      </div>
+
+        <div id="Winner" class="invisible aparecer">
+          <section class="equipos">
+            <h1 class="colored">Cyber-Truco</h1>
+            <br>
+            <h1 class="colored">El equipo ganador es....</h1>
+            <img id="car" class="batirr" src="statics/car.png" alt="">
+          </section>
+
+          <h1 id="ganador" class="colored"></h1>
+          <section class="iniciar">
+            <button id="Back" class="batirr botonTop megavacio fin" >F i n</button>
+          </section>
+      </div>
+
+  </body>
+</html>
