@@ -12,7 +12,7 @@
 
 body, #Start, #Game, #Winner{
   background-color: rgb(33, 34, 48);
-  height: 94vh;
+  
 }
 
 body{
@@ -39,18 +39,20 @@ body{
 /* -------------------------------- */
 
 h1{
-  font-size: 40px;
+  font-size: 35px;
+  width: 350px;
 }
 
 #Start{
-  width: 60vw;
+  width: 100vw;
+  height: 210vw;
 }
 
 /*------------------------------------*/
 #car{
-  margin-top: 60px;
+  margin-top: 40px;
   width:300px;
-  margin-bottom: -110px;
+  margin-bottom: -120px;
 }
 
 .batirr:hover {
@@ -119,7 +121,7 @@ h1{
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom:200px;
 }
 
@@ -140,11 +142,11 @@ h1{
 ::placeholder{
   color: rgb(255, 255, 255);
   font-weight: lighter;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 input{
-  width: 400px;
+  width: 320px;
   background-color:transparent;
   outline: none; /*para evitar el highlight*/
   border: 3px rgb(37, 228, 37) solid;
@@ -193,12 +195,12 @@ button{
 /* -------------------------------- */
 
 #Game, #Winner{
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .vl {
   border-left: 6px solid rgb(255, 0, 0);
-  height: 763px;
+  height: 660px;
   margin-left: 20px;
   margin-right: 20px;
   position: absolute;
@@ -207,8 +209,8 @@ button{
 .vl2 {
   border-top: 6px solid rgb(255, 0, 0);
   height: 1px;
-  width: 550px;
-  top:440px;
+  width: 350px;
+  top:390px;
   margin-left: 20px;
   margin-right: 20px;
   position: absolute;
@@ -218,7 +220,7 @@ button{
   border-top: 6px solid rgb(255, 0, 0);
   height: 1px;
   width: 310px;
-  top:120px;
+  top:100px;
   margin-left: 20px;
   margin-right: 20px;
   position: absolute;
@@ -230,10 +232,10 @@ button{
 
 .botonTop{
   background-color:transparent;
-  margin: 0px 20px;
+  margin: 0px 0px;
   outline: none; /*para evitar el highlight*/
-  width:80px;
-  height:80px;
+  width:60px;
+  height:60px;
   font-size: 90px;
   letter-spacing: 0px;
   line-height: 0px;
@@ -241,23 +243,37 @@ button{
   padding-top: 0px;
 }
 
+#ne1{
+  margin-left: 20px;
+  margin-right: 10px;
+  line-height: 2;
+  padding-top: 5px;
+}
+
+#ne2{
+  margin-left: 20px;
+  margin-right: 10px;
+  line-height: 2;
+  padding-top: 5px;
+}
+
 h2{
   margin-top: 0px;
-  padding-left: 10px;
+  padding-left: 0px;
   display: flex;
   text-align: center;
   flex-direction: column;
   align-content: center;
   align-items: center;
-  width:160px;
+  width:80px;
   height:50px;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 /*-------------------*/
 
 .tipofondo{
-  margin-top: 620px;
+  margin-top: 590px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -268,30 +284,30 @@ h2{
 .BtnInf{
   margin-top: 0px;
   padding-left: 10px;
+  padding-right: 10px;
   display: flex;
   text-align: center;
   flex-direction: column;
   align-content: center;
   align-items: center;
-  width:70px;
+  width:40px;
   height:50px;
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 0px;
 }
 
 .fin{
   padding-left: 10px;
-  width:150px;
+  width:80px;
   height:50px;
-  font-size: 30px;
+  font-size: 20px;
   padding-top: 8px;
-  z-index: 11;
 }
 
 .lospuntos{
   align-content: center;
   align-items: center;
-  width:150px;
+  width:120px;
   height:40px;
   font-size: 25px;
   z-index: 10;
@@ -310,70 +326,69 @@ h2{
 /*-----------------------------------------*/
 
 #imagenes{
-  top:150px;
-  height:560px;
-  width:500px;
+  top:120px;
+  height:550px;
+  width:330px;
   position: absolute;
 }
 
 .palillos{
   position: absolute;
   height:80px;
-
 }
 
 /*-------------------*/
 
 #p11{
-  left: 90px;
+  left: 70px;
   top:0px
 }
 #p12{
-  left: 90px;
+  left: 70px;
   top:90px
 }
 #p13{
-  left: 90px;
+  left: 70px;
   top:180px
 }
 #p14{
-  left: 90px;
-  top:320px
+  left: 70px;
+  top:290px
 }
 #p15{
-  left: 90px;
-  top:410px
+  left: 70px;
+  top:380px
 }
 #p16{
-  left: 90px;
-  top:500px
+  left: 70px;
+  top:470px
 }
 
 /*-------------------*/
 
 #p21{
-  left: 330px;
+  left: 180px;
   top:0px
 }
 #p22{
-  left: 330px;
+  left: 180px;
   top:90px
 }
 #p23{
-  left: 330px;
+  left: 180px;
   top:180px
 }
 #p24{
-  left: 330px;
-  top:320px
+  left: 180px;
+  top:290px
 }
 #p25{
-  left: 330px;
-  top:410px
+  left: 180px;
+  top:380px
 }
 #p26{
-  left: 330px;
-  top:500px
+  left: 180px;
+  top:470px
 }
 
 /*-------------------*/
